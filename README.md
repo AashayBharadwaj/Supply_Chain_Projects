@@ -9,14 +9,45 @@ The objective of this text is to describe a production planning process using Py
 
 
 
+![2](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/2.jpg)
+
+
 
 Introduction: The master production schedule is the main communication tool between the commercial team and production. Your customers send purchase orders with specific quantities to be delivered at a certain time. Production planning is used to minimize the total cost of production by finding a balance between minimizing inventory and maximizing the quantity produced per setup.
 
+![3](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/3.jpg)
+![4](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/4.jpg)
+
+
+
+
 <b>How to plan your production with Python?<b>
 Scenario: You are a production planning manager in a small factory producing radio equipment that serves local and international markets. Customers send Purchase Orders (PO) to your commercial team with quantities and expected delivery dates. Your role is to schedule production to deliver on time with a minimum total cost of production that includes setup costs, production costs, and holding costs. In our example, the customer ordered products for the next 12 months.
+![5](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/5.jpg)
+![6](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/6.jpg)
 
+
+  
+  
+  
 Setup vs. Inventory Costs: The main challenges for you are reducing the average inventory on hand to minimize the storage costs and minimize the number of production setups. However, these two constraints are antagonistic. Therefore, it is difficult for you to find an intuitive way to build an optimal plan. Example 1: Minimize Inventory. In this example, you produce the exact demand quantity each month. Pros: no excess inventory. Cons: you get production set up for each month with a positive demand. Example 2: Minimize the number of production setups. In this example, you build stock to minimize the number of setups. Pros: only two production setups for the whole period. Cons: a large stock on hand that increase the inventory costs.
 
+ ![7](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/7.jpg)
+  ![8](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/8.jpg)
+  
+  ![9](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/9.jpg)
+
+
+ 
+  
+  ![10](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/10.jpg)
+  ![11](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/11.jpg)
+  ![12](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/12.jpg)
+
+
+  
+  
+  
 Conclusion: You need an optimization algorithm to balance the two constraints. Solution: You can find the source code with dummy data here: Github.
 
 Assumptions: Let us suppose that you receive a purchase order for the next 12 months with the quantities presented in the chart above. Set up cost: 500 $. Holding cost: 1 $/unit/month. Production cost per unit: 50 $/unit. Units produced month m can be shipped the same month. Inventory costs are charged from the month m+1.
