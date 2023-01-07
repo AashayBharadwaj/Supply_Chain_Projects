@@ -4,6 +4,12 @@ Supply_Chain_Projects
 
 The objective of this text is to describe a production planning process using Python to create an optimal plan to meet customer demand while minimizing total production costs.
 
+![1](https://github.com/AashayBharadwaj/Supply_Chain_Projects/blob/main/1.jpg)
+
+
+
+
+
 Introduction: The master production schedule is the main communication tool between the commercial team and production. Your customers send purchase orders with specific quantities to be delivered at a certain time. Production planning is used to minimize the total cost of production by finding a balance between minimizing inventory and maximizing the quantity produced per setup.
 
 <b>How to plan your production with Python?<b>
