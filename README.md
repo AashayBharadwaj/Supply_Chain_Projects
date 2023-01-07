@@ -21,4 +21,5 @@ Forward Calculation: Start at period 1. Calculate the total cost to satisfy the 
 
 Backward Calculation: Start from period t = N and work backwards to find the lowest options to satisfy the demand of each D(t).
 
-Results & Conclusion: Feel free to follow me on medium for more articles related to Data Analytics and Supply Chain Management. Forward Calculation: You should export the results of the forward calculation using a table like the one below. Period 1, if you produce for the first month demand only (D(1) = 200 units): 500$. Two first months (D(1) + D(2) = 350 units): 650$. Backward Calculation: We can use the table above
+Results & Conclusion: 
+Forward Calculation: You should export the results of the forward calculation using a table like the one below. Period 1, if you produce for the first month demand only (D(1) = 200 units): 500$. Two first months (D(1) + D(2) = 350 units): 650$. 
